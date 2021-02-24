@@ -1,3 +1,3 @@
 steps:
-  - name: python:slim
-    args: ['python', 'run','main.py']
+  - name: golang
+    args: ['go', 'run', 'main.go']
